@@ -1,0 +1,170 @@
+body{
+    background-color:rgba(14,14,26,255) ;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(14,14,26,255);
+    height: 100px;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 15px;
+}
+
+section{
+    margin: 50px 30px;
+    height: 800px;
+}
+
+a{
+    font-weight: bolder;
+    font-size: 30px;
+    color: goldenrod;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 1.6;
+    text-align: center;
+    font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    color: whitesmoke;
+    font-style: unset;
+    text-align: center;
+}
+
+.button{
+  background-color: rgba(255, 255, 255, .15);
+  border-radius: 100px;
+  color: #333;
+  font-family: sans-serif;
+  line-height: 1.5;
+  max-height: 50%;
+  max-width: 50%;
+  padding: 10px 15px;
+}
+
+#overlay{
+    background-color: rgba(255, 228, 181, 0.25);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#intestazione{
+    height: 450px;
+    background-image: url(./Colonizazione-marte.png);
+    background-size: cover;
+    position: relative;
+}
+
+#logo{
+    display: block;
+    width: 200px;
+    height:200px;
+    text-align: center;
+    margin:auto;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif,Arial, Helvetica, sans-serif;
+    color: azure;
+    font-size: 50px;
+    line-height: normal;
+    font-weight: lighter;
+    font-style: initial;
+    text-align: center;
+}
+
+h2{
+    color: goldenrod;
+    font-family: 'Roboto', sans-serif,Arial, Helvetica, sans-serif;
+    font-weight: 70px;
+    line-height: normal;
+    font-style: oblique;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+    line-height: 80%;
+    color: black;
+    font-weight: 20px;
+    font-style: normal;
+    text-align: center;
+}
+
+
+#main{
+    display: flex;
+    height: 600px;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contenitore{
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+}
+
+#BOX1{
+    background-image: url(./Città\ terra.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc(33% - 5px);
+}
+
+#BOX2{
+    background-image: url(./Marte\ città.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc(33% - 5px);
+}
+
+#BOX3{
+    background-image: url(./Città\ giove.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc(33% - 5px);
+}
+
+footer {
+    height: 150;
+    margin-top: 30px;
+}
+
+@media(max-width: 600px){
+    #contenitore{
+        display: flex;
+        height: 300px;
+        justify-content: space-between;
+    }
+
+    section{    
+        margin: 20px 30px;
+        height: 500px;
+    }
+
+    footer{    
+        height: 100px;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width: 500px){
+   h3{
+       color: whitesmoke;
+   }
+}
